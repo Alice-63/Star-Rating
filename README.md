@@ -1,3 +1,4 @@
 # Star-Rating
 Star-Rating with Jquery
-https://github.com/Alice-63/Star-Rating
+
+https://Alice-63.github.io/Star-Rating/
