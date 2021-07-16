@@ -25,4 +25,18 @@ $("#container>i").mouseleave(function () {
 });
 
 
+$("#senden").click(function(){
+ 
+    let isEmpty=$("#container>i.sternGeklickt")
+
+    if(isEmpty.length==0)
+    {
+        alert("Bitte Sterne auswählen!")
+    }
+    console.log(isEmpty.length)
+
+
+})
+
+
 })
