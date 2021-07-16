@@ -33,7 +33,10 @@ $("#senden").click(function(){
     {
         alert("Bitte Sterne auswählen!")
     }
-    console.log(isEmpty.length)
+    else
+    {
+        $("#ergebnis").text("Sie haben "+isEmpty.length+" Sterne gegeben.")
+    }
 
 
 })

@@ -28,7 +28,7 @@ body
 
 #container>.sternAktiv,#container>.sternGeklickt
 {
-    color: rgb(180, 33, 33);
+    color: #b42121;
 }
 
 #senden
@@ -43,6 +43,13 @@ body
     padding: 10px 15px;
     font-size: 0.7em;
     cursor: pointer;;
+}
+#ergebnis
+{
+    margin-top: 10px;
+    color:#b42121;
+    text-align: center;
+    padding-left: 15px;
 }
 
 
