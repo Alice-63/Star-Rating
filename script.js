@@ -4,8 +4,10 @@ $(function(){
 
 $("i").click(function () 
 { 
+    $(this).siblings().removeClass("sternGeklickt");
+
    $(this).addClass("sternGeklickt");
-   $(this).prevAll().addClass("sternGeklickt")
+   $(this).prevAll().addClass("sternGeklickt");
         
 })
 
