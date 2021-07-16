@@ -10,14 +10,14 @@ $("i").click(function ()
 
 
 
-// $("#container>i").mouseenter(function(){
+$("#container>i").mouseenter(function(){
     
-//     $(this).css("color","red")
-// })
-// $("#container>i").mouseleave(function () {
+    $(this).prevAll("color","red")
+})
+$("#container>i").mouseleave(function () {
 
-//     $(this).css("color","")
-// });
+    $(this).css("color","")
+});
 
 
 })

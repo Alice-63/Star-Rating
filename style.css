@@ -18,12 +18,22 @@ body
     padding: 30px 50px;
 }
 
-#container>i
+#container>.fas
 {
     color: #cacaca;
     cursor: pointer;
 }
 
+#container>.sternAktiv
+{
+    color: rgb(180, 33, 33);
+}
+
+.sterneGelickt
+{
+    color:  rgb(180, 33, 33);
+
+}
 
 
 
